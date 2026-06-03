@@ -10,6 +10,7 @@ app = Dash(
     suppress_callback_exceptions=True
 )
 app.title = "Nordzucker Competitor Intelligence Data Product"
+server = app.server
 
 engineering_links = [
     ("Pipeline Overview", "/engineering/pipeline-overview"),
